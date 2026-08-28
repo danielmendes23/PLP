@@ -43,11 +43,11 @@ Você precisará do Java e do arquivo standalone do Jython.
 2. Abra seu terminal na pasta do projeto.
 3. Para rodar o **Exemplo 1**, execute o comando:
    ```bash
-   java -Dfile.encoding=UTF-8 --enable-native-access=ALL-UNNAMED -jar jython-standalone-2.7.4.jar exemplo1.py
+   java -jar jython-standalone-2.7.4.jar exemplo1.py
    ```
 4. Para rodar o **Exemplo 2**, execute o comando:
    ```bash
-   java -Dfile.encoding=UTF-8 --enable-native-access=ALL-UNNAMED -jar jython-standalone-2.7.4.jar exemplo2.py
+   java -jar jython-standalone-2.7.4.jar exemplo2.py
    ```
 
 > *Nota: As flags `-Dfile.encoding` evitam quebras de acentuação no terminal, e a flag `--enable-native-access` suprime avisos de segurança nas versões mais recentes da JVM.*
