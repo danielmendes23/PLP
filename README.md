@@ -67,3 +67,7 @@ Caso possua o Docker instalado, você não precisará baixar o `.jar` do Jython,
    ```bash
    docker run -it --rm atividade-jython exemplo2.py
    ```
+### 3. Video
+
+Link do video no Loom:
+https://www.loom.com/share/9a300d22580f4c588a85c4c799857daf
