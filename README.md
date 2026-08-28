@@ -49,9 +49,7 @@ Você precisará do Java e do arquivo standalone do Jython.
    ```bash
    java -jar jython-standalone-2.7.4.jar exemplo2.py
    ```
-
-> *Nota: As flags `-Dfile.encoding` evitam quebras de acentuação no terminal, e a flag `--enable-native-access` suprime avisos de segurança nas versões mais recentes da JVM.*
-
+   
 ### 2. Executando via Docker
 Caso possua o Docker instalado, você não precisará baixar o `.jar` do Jython, o próprio contêiner cuidará disso. Como o projeto é interativo (requer digitação pelo terminal), usaremos a flag `-it`.
 
